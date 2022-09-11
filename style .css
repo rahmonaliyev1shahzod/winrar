@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  .home {
+    /* border: 3px solid lime; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(images2/about2.png);
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    z-index: 1;
+}
+/* .home{
+      background: #F4FEFF;
+      opacity:.5;
+      z-index: -1;
+} */
+  .home .home_menu .logo{
+    overflow: hidden;
+}
+.home .home_menu .logo .navbar-brand img{
+    width: 150px;
+    height: 60px;
+    /* border: 3px solid red; */
+    border-radius: 15px;
+}
+.home .home_menu li a{
+    color: #450B78;
+    font-size: 14px;
+}
+.home .home_menu li a:hover{
+    color: #450B78;
+}
+.home .home_content p{
+    font-family: 'Nunito', sans-serif;
+    color: #2B044D;
+}
+.home h1{
+    font-family: 'Nunito', sans-serif;
+    color: #2B044D;
+    /* font-weight:bolder;  */
+}
+.home .text{
+    display: flex;
+    justify-content: center;
+    margin-top:70vh;
+    color: #F4FEFF;
+}
+.about{
+    background: #F4FEFF;
+}
+.about h1{
+    color:#2B044D;
+    font-family: 'Nunito', sans-serif;
+}
+.about p{
+    font-family: sans-serif;
+}
+.about .about_img{
+    overflow: hidden;
+    transition:all .5s;
+}
+.about .about_img img{
+    border-radius:10px;
+}
+.about .about_img:hover{
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+}
+.directions h1{
+    color: #2B044D;
+    font-family: 'Nunito', sans-serif;
+}
+.lessons{
+    background: #F4FEFF;
+    font-family: 'Nunito', sans-serif;
+
+}
+.lessons h1{
+    color: #2B044D;
+    font-family:'Nunito', sans-serif;
+}
+.map{
+    /* position: relative; */
+   background: #F4FEFF;
+   /* border: 3px solid red;  */
+}
+.map h1{
+    font-family: 'Nunito', sans-serif;
+    color: #2B044D;
+}
+.map .faqs iframe {
+    height:80vh;
+    width: 90vw;
+    /* z-index:1;  */
+}
+.map .faqs{
+    position: relative;
+}
+.map .faqs .rang{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* z-index: -1; */
+}
+.contact{
+    /* border: 3px solid red; */
+    background: #171932;
+    color: #FFFFFF;
+    font-family:'Nunito', sans-serif;
+}
+.contact a{
+    text-decoration: none;
+    /* color: #FFFFFF; */
+}
+.copyright{
+    background:#2E2E43;
+    color:#FFFFF3;
+    font-family:'Nunito', sans-serif;
+}
